@@ -1,0 +1,35 @@
+body
+{
+    color: white;
+background-image: linear-gradient(to right top, #000000, #0e0e0e, #333333, #aaaeb3, #ffffff);
+}
+button {   
+    background-image: linear-gradient(to right top, #000000, #0e0e0e, #333333, #aaaeb3, #ffffff);
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;                                
+    }
+
+
+    button:hover{
+        background-image: linear-gradient(to right top, #aaaeb3, #ffffff, #5f5d5d, #0e0e0e, #333333);
+        padding: 7px 36px;
+        font-size: 20px;
+        margin: 6px 4px;
+    }
+
+    input {
+        background-image: linear-gradient(to right top, #000000, #0e0e0e, #333333);
+    }
+
+    .chat {
+        background-color: rgb(111, 0, 255);
+    }
+
+    

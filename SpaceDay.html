@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="SpaceDay.css?v=1.1">
+</head>
+
+
+<body onload="getdata()">
+    <div class="container">
+        <button id="logout" class="btn btn-danger glyphicon glyphicon-log-out" onclick="logout()">logout</button>
+        <center>
+            <h1  class="header">	
+               Space day	
+            
+            </h1>
+            
+            <h3 id = "name"></h3>
+          
+    
+            <h3 class="color_white">Em baixo existem umas informações sobre alguns objetos espaciais</h3>
+    
+            
+                <botton id = "mercurio" onclick = "Mercurio()" class="Planetas">Mercúrio</botton>
+                <br><br>
+                <botton id="venus" onclick = "Venus()" class="Planetas">Vênus</botton>
+                <br><br>
+                <botton id="terra" onclick = "Terra()" class="Planetas">Terra</botton>
+                <br><br>
+                <botton id="marte" onclick = "Marte()" class="Planetas">Marte</botton>
+                <br><br>
+                <botton id="jupiter" onclick = "Jupiter()" class="Planetas">Júpiter</botton>
+                <br><br>
+                <botton id="saturno" onclick = "Saturno()" class="Planetas">Saturno</botton>
+                <br><br>
+                <botton id="urano" onclick = "Urano()" class="Planetas">Urano</botton>
+                <br><br>
+                <botton id="netuno" onclick = "Netuno()" class="Planetas">Netuno</botton>
+                <br><br>
+                <botton id="sol" onclick = "Sol()" class="Planetas">Sol</botton>  
+                <br><br>
+                <botton id="sistema solar" onclick = "Sistema()" class="Planetas">Sistema solar</botton>
+                <br><br>
+                <botton id="universo" onclick = "Universo()" class="Planetas">Universo</botton>
+                <br><br>
+                <botton id="buraco" onclick = "Buraco()" class="Planetas">Buraco negro</botton>
+                <h3 class="color_white">Converse com pessoas sobre o espaço aqui em baixo.</h3>
+            <br><br><br><br><br><br><br><br>
+
+
+            <div id = "chat" style="text-align: left;margin-bottom: 70px;"> </div>
+        
+    
+            <div class="inputDivMessagePage">
+                <label>Enviar:</label>
+                <input id="msg" type="text" placeholder="Envie sua mensagem">
+                <button class="btn btn-success" onclick = "mandar()">Enviar</button>
+            </div>
+        </center>
+        
+    </div>
+    <script src="SpaceDay.js?v=1.2"></script>
+</body>
+
+</html> 

@@ -1,0 +1,16 @@
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+.Texto
+{
+	color: black;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+body  {
+    text-align: center;
+}
+body
+{
+background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
